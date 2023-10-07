@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Staatliches&display=swap');
+
+.Proyectos{
+    display: flex;
+    background-image: url("https://cdn.discordapp.com/attachments/1159225647479132281/1159229359568207882/fondo-pantalla-textura-marmol-fl.png?ex=65304378&is=651dce78&hm=410bd21028f92fd7b16b3e37a3dd4ebdc39ed0a4e8584b19061095f6ecac435a&");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    width: 100%;
+    height: 531px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.fotoPerfil{
+    border-radius: 100%;
+    width: 300px;
+}
+
+.divProyectos{
+    display: flex;
+}
+.imgcontainer{
+    padding: 50px;
+}
+.titular{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* font-weight: 800; */
+    padding: 50px /*50px 50px 0px*/;
+    margin: 0;
+
+}
+.titular h1{
+    font-size:40px;
+    /* font-weight: 9000; */
+    font-family: 'Poppins', sans-serif;
+    width: 300px;
+    padding: 10px;
+    border-bottom: solid #fff 1px;
+}
+
+.titular h2{
+    font-size:20px;
+    font-family: 'Space Grotesk', sans-serif;
+    padding: 10px;
+    /* font-weight: 100; */
+
+}
+
+.btnDescv{
+    padding: 10px;
+
+}
+.descargar{
+    font-family: 'Manrope', sans-serif;
+    background-color: #66ebab;
+    color: #111;
+    border-radius: 20px;
+}
